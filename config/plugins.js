@@ -26,7 +26,7 @@ module.exports = ({ env }) => ({
   "users-permissions": {
     config: {
       register: {
-        allowedFields: [ "phoneno" , "deliveryaddress" ],
+        allowedFields: [ "PhoneNo" , "Address" ],
       },
     },
   },
@@ -55,4 +55,3 @@ module.exports = ({ env }) => ({
   });
 
 
-  
