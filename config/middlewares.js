@@ -20,7 +20,7 @@ module.exports = [
     config: {
       enabled: true,
       headers: '*',
-      origin: ['http://localhost:5173', 'http://localhost:1337']
+      origin: ['http://localhost:5173', 'http://localhost:1337','https://strapiweb-production.up.railway.app']
     }
   },
   'strapi::logger',
